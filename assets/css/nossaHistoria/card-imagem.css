@@ -1,0 +1,15 @@
+.card__imagem {
+    display: none;
+    background-color: pink;
+    text-align: center;
+    font-family: New Rocker, cursive;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.card-aberto .card__imagem {
+    display: flex;
+    height: 100px;
+    grid-area: card-imagem;
+
+}

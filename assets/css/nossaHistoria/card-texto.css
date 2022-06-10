@@ -1,0 +1,8 @@
+.card__imagem {
+    background-color: #5489f0;
+    text-align: center;
+    font-family: New Rocker, cursive;
+    font-size: 1.5rem;
+    width: 100%;
+    grid-area: card-texto;
+}

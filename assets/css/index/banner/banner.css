@@ -1,0 +1,18 @@
+
+.banner__img {
+    width: 100%;    
+}
+
+@media screen and (min-width: 0) {
+    .banner {
+        padding-top: 35px;
+    }   
+} 
+@media screen and (min-width: 640) {
+    .banner {
+        padding-top: 70px;
+    }
+} 
+
+
+
