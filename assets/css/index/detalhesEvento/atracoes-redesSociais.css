@@ -12,16 +12,17 @@
 }
 
 
-.logo-redes {
-	font-size: 1.8rem;
+.fa-brands {
 	background: #fefefe;
-	color: #888888;
 	border-radius: 10px;
-	width: 2.4rem;
+	color: #888888;
+	font-size: 1.8rem;
 	padding: 0.3rem 0;
+	text-decoration: none;
+	width: 2.4rem;
 }
 
-.logo-instagram:hover{
+.fa-instagram:hover{
 	color: #F56040;
 }
 
