@@ -1,13 +1,12 @@
 .card__titulo {
+    align-items: center;
     display: flex;
-    vertical-align: middle;
-    text-align: center;
     font-family: New Rocker, cursive;
     font-size: 2rem;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-    width: 100%;
     grid-area: card-titulo;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
 }
 
 .botao-abre-card {
