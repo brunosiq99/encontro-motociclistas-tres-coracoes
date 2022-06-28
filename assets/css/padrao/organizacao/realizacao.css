@@ -1,6 +1,26 @@
 .realizacao {  
-    padding: 1rem 2rem;  
+    padding: 1rem;  
 }
+
+.realizacao__lista {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.realizacao__item {
+    padding: 1rem;    
+    text-align: center;
+    width: calc(33% - 1rem);
+}
+
+.realizacao__item img {
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
 
 @media screen and (max-width:639px) {
     .realizacao {

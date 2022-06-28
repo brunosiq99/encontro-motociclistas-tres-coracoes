@@ -3,8 +3,9 @@
     vertical-align: middle;
     text-align: center;
     font-family: New Rocker, cursive;
-    font-size: 1.5rem;
+    font-size: 2rem;
     justify-content: space-between;
+    margin-bottom: 1rem;
     width: 100%;
     grid-area: card-titulo;
 }
@@ -12,7 +13,7 @@
 .botao-abre-card {
     background: transparent;
     border: none;
-    color: #fdfdfd;
+    color: black;
     cursor: pointer;
 }
 
