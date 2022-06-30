@@ -20,6 +20,6 @@
 @media screen and (min-width:640px){
     .organizacao {
         flex-direction: row;
-        height: 1300px;  
+        height: 1500px;  
     }
 }

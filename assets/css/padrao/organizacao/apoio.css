@@ -1,13 +1,15 @@
 .apoio {
+    margin: 0 auto;
     padding: 1rem 1rem;
     text-align: center;
 }
 
 .apoio__lista {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1rem 0;
     align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1rem 0;
+    
 }
 
 .apoio img {
@@ -16,7 +18,7 @@
 }
 
 .apoio__item___diminuir img {
-    width: 80%;
+    width: 70%;
 }
 
 @media screen (max-width:639px){
