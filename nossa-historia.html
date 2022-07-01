@@ -37,7 +37,7 @@
 		<link rel="stylesheet" href="css/home.css ">
 
 		<script src="https://kit.fontawesome.com/bdbaac8173.js" crossorigin="anonymous"></script>
-		<script defer src="./assets/js/abre-card.js"></script>
+		<script defer src="./assets/js/abreCard.js"></script>
 	</head>
     <body>
 		<header>	
@@ -56,9 +56,9 @@
 			<section class="ano2020 card">
 				<div  class="card__titulo">
 					<h3>IV Encontro Nacional de Motociclistas de Três Corações - MG</h3>
-					<button class="botao-abre-card botao-2020"><i class="fa-solid fa-xl fa-angle-down icone-2020"></i></button>
+					<button class="botao-abre-card botao-2020" data-botao><i class="fa-solid fa-xl fa-angle-down icone-2020"></i></button>
 				</div>
-				<div class="card__conteudo conteudo-2020">					
+				<div class="card__conteudo" data-cardConteudo>					
 					<div class="card__texto">	
 						<p>
 							Em 2020 foi um ano difícil jamais visto na atualidade com uma pandemia que deixa o mundo
@@ -93,9 +93,9 @@
 			<section class="ano2019 card">
 				<div class="card__titulo">
 					<h3>III Encontro Nacional de Motociclistas de Três Corações - MG</h3>
-					<button class="botao-abre-card botao-2019"><i class="fa-solid fa-xl fa-angle-down icone-2019"></i></button>
+					<button class="botao-abre-card botao-2019" data-botao><i class="fa-solid fa-xl fa-angle-down icone-2019"></i></button>
 				</div>				
-				<div class="card__conteudo conteudo-2019">
+				<div class="card__conteudo" data-cardConteudo>
 					<div class="card__texto">
 						<p>
 							2019 foi o retorno do ENCONTRO NACIONAL DE MOTOCICLISTAS DE TRÊS CORAÇÕES MG com
@@ -137,11 +137,11 @@
 				<div class="card__titulo">
 
 					<h3>II Encontro Nacional de Motociclistas de Três Corações - MG</h3>
-					<button class="botao-abre-card botao-2016"><i class="fa-solid fa-xl fa-angle-down icone-2016"></i></button>
+					<button class="botao-abre-card botao-2016" data-botao><i class="fa-solid fa-xl fa-angle-down icone-2016"></i></button>
 
 				</div>
 
-				<div class="conteudo-2016">
+				<div class="card__conteudo" data-cardConteudo>
 
 					<div class="card__texto">
 
@@ -177,9 +177,9 @@
 			<section class="ano2015 card">
 				<div class="card__titulo">
 					<h3>I Encontro Nacional de Motociclistas de Três Corações - MG</h3>
-					<button class="botao-abre-card botao-2015"><i class="fa-solid fa-xl fa-angle-down icone-2015"></i></button>					
+					<button class="botao-abre-card botao-2015" data-botao><i class="fa-solid fa-xl fa-angle-down icone-2015"></i></button>					
 				</div>
-				<div class="card__conteudo conteudo-2015">
+				<div class="card__conteudo" data-cardConteudo>
 					<div class="card__texto">
 
 						<p> 
@@ -263,7 +263,8 @@
 						<li class="patrocinio__item patrocinio__item___diminuir"><img alt="Marmitex da Lari. Telefone 35 98806-3800" src="./assets/Img/marmitex-da-lari.jpeg"></li>
 
 						<li class="patrocinio__item"><img alt="Sacolão Center" src="./assets/Img/sacolao.png"></li>
-
+						<li class="patrocinio__item"><img alt="Go Mobilidade Urbana" src="./assets/Img/go-mobilidade.png"></li>
+						
 				    </ul>
 				</div>
 				<div class="apoio">
