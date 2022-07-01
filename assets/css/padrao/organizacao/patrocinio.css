@@ -37,7 +37,7 @@
 
 @media screen and (min-width:640px){
     .patrocinio {
-        width: 50%; 
+        width: 55%; 
         border-right: 1pt gray solid;  
     }
     .patrocinio__item {

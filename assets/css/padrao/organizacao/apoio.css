@@ -1,6 +1,6 @@
 .apoio {
     margin: 0 auto;
-    padding: 1rem 1rem;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -14,7 +14,7 @@
 
 .apoio img {
     padding: 1rem 0;
-    width: 120%;
+    width: 100%;
 }
 
 .apoio__item___diminuir img {
@@ -23,12 +23,16 @@
 
 @media screen (max-width:639px){
     .apoio {
-        width: 80%; 
+        width: 70%; 
+    }
+    .apoio__item___diminuir img {
+        width: 60%;
     }
 }
 
 @media screen and (min-width:640px){
     .apoio {
-        width: 10%; 
+        width: 20%; 
     }
+
 }
