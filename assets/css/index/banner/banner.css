@@ -1,6 +1,7 @@
 
 .banner__img {
-    width: 100%;  
+    transform: translate(-5%,0%);
+    width: 111.111%; /*Retorna aos 100% da página, antes limitado pelo padding do main*/ 
 }
 
 @media screen and (min-width: 0) {
